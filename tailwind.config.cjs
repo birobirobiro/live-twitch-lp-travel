@@ -6,10 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'background-search': 'rgba(255, 255, 255, 0.4)'
+      },
       backgroundImage: {
-        topbackground: 'url(src/assets/top-background.jpeg)'
-      }
+        topbackground: 'url(/assets/top-background.jpeg)'
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
