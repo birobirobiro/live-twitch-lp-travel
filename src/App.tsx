@@ -1,5 +1,7 @@
 import Categories from "./components/Categories/Categories"
+import Gallery from "./components/Gallery/Gallery"
 import Menu from "./components/Menu/Menu"
+import Offers from "./components/Offers/Offers"
 import Search from "./components/Search/Search"
 
 function App() {
@@ -26,9 +28,22 @@ function App() {
 
           <Categories />
         </section>
+
+        <section className="px-28 py-24">
+          <h1 className="text-3xl text-white font-bold">Top Vacation Destinations</h1>
+
+          <Gallery />
+        </section>
       </section>
 
+      <section className="offers">
+        <div className="px-28">
+          <h1 className="text-black text-3xl font-bold pt-20">Offers</h1>
 
+
+          <Offers />
+        </div>
+      </section>
 
     </div >
   )
